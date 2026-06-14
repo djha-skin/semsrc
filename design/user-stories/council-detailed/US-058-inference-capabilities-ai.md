@@ -1,7 +1,9 @@
 # US-058: Inference Capabilities for AI
 
 ## Description
-Provide inference capabilities that allow AI systems to derive new knowledge from existing repository data. This enables AI agents to make predictions and discoveries based on semantic reasoning.
+Provide inference capabilities that allow AI systems to derive new knowledge
+from existing repository data. This enables AI agents to make predictions and
+discoveries based on semantic reasoning.
 
 
 ## Test Cases

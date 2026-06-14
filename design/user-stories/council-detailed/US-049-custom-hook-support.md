@@ -1,7 +1,9 @@
 # US-049: Custom Hook Support
 
 ## Description
-Enable users to define and install custom hooks for specific repository workflows. This allows teams to implement organization-specific validation, annotation, and automation without modifying core system logic.
+Enable users to define and install custom hooks for specific repository
+workflows. This allows teams to implement organization-specific validation,
+annotation, and automation without modifying core system logic.
 
 
 ## Test Cases

@@ -1,11 +1,14 @@
 # US-047: Post-commit Annotation
 
 ## Description
-Automatically annotate commits with semantic metadata after commit creation. This enriches the knowledge graph with relationships and context derived from the commit operation.
+Automatically annotate commits with semantic metadata after commit creation.
+This enriches the knowledge graph with relationships and context derived from
+the commit operation.
 
 
 ## Test Cases
-1. **Automatic annotation**: Annotations are generated automatically after commit
+1. **Automatic annotation**: Annotations are generated automatically after
+   commit
 2. **Annotation accuracy**: Annotations are accurate and relevant
 3. **Performance**: Annotation does not significantly slow commit process
 4. **Custom strategies**: Support custom annotation strategies

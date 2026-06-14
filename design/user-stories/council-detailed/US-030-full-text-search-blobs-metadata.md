@@ -1,7 +1,9 @@
 # US-030: Full-Text Search Across Blobs and Metadata
 
 ## Description
-Implement full-text search capabilities across file content (blobs) and semantic metadata. This enables users to find content and relationships quickly using keyword searches.
+Implement full-text search capabilities across file content (blobs) and
+semantic metadata. This enables users to find content and relationships quickly
+using keyword searches.
 
 
 ## Test Cases

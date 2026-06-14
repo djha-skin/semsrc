@@ -1,7 +1,9 @@
 # US-045: Automatic Hook Installation
 
 ## Description
-Automatically install Git-compatible hooks when initializing a new repository. This ensures semantic validation and annotation happen automatically without manual configuration.
+Automatically install Git-compatible hooks when initializing a new repository.
+This ensures semantic validation and annotation happen automatically without
+manual configuration.
 
 
 ## Test Cases

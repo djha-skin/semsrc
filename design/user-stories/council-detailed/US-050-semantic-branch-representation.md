@@ -1,7 +1,9 @@
 # US-050: Semantic Branch Representation
 
 ## Description
-Represent branches semantically in the knowledge graph, enabling rich queries and analysis of branch relationships and evolution. This transforms branch metadata into queryable semantic data.
+Represent branches semantically in the knowledge graph, enabling rich queries
+and analysis of branch relationships and evolution. This transforms branch
+metadata into queryable semantic data.
 
 
 ## Test Cases

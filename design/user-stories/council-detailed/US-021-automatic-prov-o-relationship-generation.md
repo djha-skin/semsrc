@@ -1,7 +1,9 @@
 # US-021: Automatic PROV-O Relationship Generation
 
 ## Description
-Automatically generate PROV-O (Provenance Ontology) relationships when performing operations on the repository. This tracks the provenance of entities, activities, and agents in a standardized semantic format.
+Automatically generate PROV-O (Provenance Ontology) relationships when
+performing operations on the repository. This tracks the provenance of entities,
+activities, and agents in a standardized semantic format.
 
 
 ## Test Cases

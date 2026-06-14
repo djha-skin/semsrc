@@ -1,7 +1,9 @@
 # US-029: SHACL Validation for Data Quality
 
 ## Description
-Implement SHACL (Shapes Constraint Language) validation to ensure data quality in the semantic graph. This validates that triples conform to defined shapes and constraints.
+Implement SHACL (Shapes Constraint Language) validation to ensure data quality
+in the semantic graph. This validates that triples conform to defined shapes and
+constraints.
 
 
 ## Test Cases

@@ -1,7 +1,9 @@
 # US-057: SPARQL Queries for AI
 
 ## Description
-Provide SPARQL query patterns optimized for AI agents to explore relationships and patterns in the repository. This enables AI systems to perform complex semantic reasoning and analysis.
+Provide SPARQL query patterns optimized for AI agents to explore relationships
+and patterns in the repository. This enables AI systems to perform complex
+semantic reasoning and analysis.
 
 
 ## Test Cases

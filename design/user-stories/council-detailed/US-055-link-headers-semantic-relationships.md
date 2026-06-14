@@ -1,7 +1,9 @@
 # US-055: Link Headers for Semantic Relationships
 
 ## Description
-Implement HTTP Link headers to represent semantic relationships between resources. This enables clients to discover relationships without parsing response bodies.
+Implement HTTP Link headers to represent semantic relationships between
+resources. This enables clients to discover relationships without parsing
+response bodies.
 
 
 ## Test Cases

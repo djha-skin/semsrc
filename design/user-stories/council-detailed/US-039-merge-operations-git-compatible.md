@@ -1,7 +1,9 @@
 # US-039: Merge Operations Compatible with Git
 
 ## Description
-Implement merge operations that are compatible with Git semantics, allowing teams to continue using familiar merge workflows while leveraging semantic features.
+Implement merge operations that are compatible with Git semantics, allowing
+teams to continue using familiar merge workflows while leveraging semantic
+features.
 
 
 ## Test Cases
@@ -28,4 +30,5 @@ Implement merge operations that are compatible with Git semantics, allowing team
 - **Conflicting changes**: Provide clear conflict resolution guidance
 - **Large merges**: Handle merges with many changed files efficiently
 - **Binary files**: Handle binary file merges appropriately
-- **Merge strategies**: Support different merge strategies (recursive, octopus, etc.)
+- **Merge strategies**: Support different merge strategies (recursive,
+   octopus, etc.)

@@ -1,7 +1,8 @@
 # US-051: RESTful Endpoints for Repository Resources
 
 ## Description
-Implement RESTful API endpoints for repository resources, enabling programmatic access and integration with external tools, services, and AI agents.
+Implement RESTful API endpoints for repository resources, enabling programmatic
+access and integration with external tools, services, and AI agents.
 
 
 ## Test Cases

@@ -1,7 +1,9 @@
 # US-059: Clear Bounded Contexts
 
 ## Description
-Define and maintain clear bounded contexts in the system architecture to ensure proper separation of concerns and modular design. This enables independent development and evolution of different system components.
+Define and maintain clear bounded contexts in the system architecture to ensure
+proper separation of concerns and modular design. This enables independent
+development and evolution of different system components.
 
 
 ## Test Cases
@@ -25,7 +27,8 @@ Define and maintain clear bounded contexts in the system architecture to ensure 
 
 ## Edge Cases
 - **Context overlap**: Should avoid overlapping responsibilities
-- **Circular dependencies**: Should prevent circular dependencies between contexts
+- **Circular dependencies**: Should prevent circular dependencies between
+   contexts
 - **Interface evolution**: Should handle interface changes gracefully
 - **Team boundaries**: Should align with team organization
 - **Performance**: Should optimize context boundaries for performance

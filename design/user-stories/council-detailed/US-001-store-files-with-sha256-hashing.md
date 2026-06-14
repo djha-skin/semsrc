@@ -9,8 +9,10 @@ SHA-256 hash and uses this hash as the file's identifier in storage.
 
 ## Test Cases
 
-1. **Identical content deduplication**: Two files with identical content should be stored once with the same hash
-2. **Unique content creates unique hashes**: Files with different content should have different hashes
+1. **Identical content deduplication**: Two files with identical content
+   should be stored once with the same hash
+2. **Unique content creates unique hashes**: Files with different content
+   should have different hashes
 3. **Empty file handling**: Empty files should generate a valid SHA-256 hash
 4. **Large file support**: Files larger than available memory should be hashed
    correctly using streaming
@@ -34,7 +36,8 @@ SHA-256 hash and uses this hash as the file's identifier in storage.
 
 ## Edge Cases
 
-- **Hash collisions**: Extremely unlikely with SHA-256, but system should handle gracefully
+- **Hash collisions**: Extremely unlikely with SHA-256, but system should
+   handle gracefully
 - **Unicode filenames**: Hash is based on content, not filename
 - **File modification time**: Should not affect hash calculation
 - **Permission bits**: Should not affect hash calculation (content only)

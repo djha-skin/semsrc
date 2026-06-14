@@ -1,7 +1,9 @@
 # US-042: Export Semsrc Data as Git Pack Files
 
 ## Description
-Export repository data from Semsrc into standard Git pack file format. This enables synchronization with external Git systems and provides a migration path back to Git if needed.
+Export repository data from Semsrc into standard Git pack file format. This
+enables synchronization with external Git systems and provides a migration path
+back to Git if needed.
 
 
 ## Test Cases

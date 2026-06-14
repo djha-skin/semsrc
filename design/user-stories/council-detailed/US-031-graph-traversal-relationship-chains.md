@@ -1,7 +1,9 @@
 # US-031: Graph Traversal for Relationship Chains
 
 ## Description
-Implement graph traversal capabilities to follow relationship chains in the semantic graph. This enables discovery of complex relationships and connections between entities.
+Implement graph traversal capabilities to follow relationship chains in the
+semantic graph. This enables discovery of complex relationships and connections
+between entities.
 
 
 ## Test Cases

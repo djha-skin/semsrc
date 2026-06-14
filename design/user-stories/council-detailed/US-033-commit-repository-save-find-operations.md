@@ -1,7 +1,9 @@
 # US-033: Commit Repository with Save/Find Operations
 
 ## Description
-Implement a specialized commit repository with save and find operations for efficient commit management. This provides a domain-specific interface for commit operations optimized for common use cases.
+Implement a specialized commit repository with save and find operations for
+efficient commit management. This provides a domain-specific interface for
+commit operations optimized for common use cases.
 
 
 ## Test Cases

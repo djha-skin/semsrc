@@ -1,7 +1,9 @@
 # US-038: Branch Management Compatible with Git
 
 ## Description
-Implement branch management that is compatible with Git workflows and semantics. This allows teams to continue using familiar branching strategies while leveraging semantic features.
+Implement branch management that is compatible with Git workflows and
+semantics. This allows teams to continue using familiar branching strategies
+while leveraging semantic features.
 
 
 ## Test Cases

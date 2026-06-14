@@ -1,7 +1,9 @@
 # US-054: Semantic Metadata in API Responses
 
 ## Description
-Include semantic metadata in API responses to make them easily processable by AI systems and semantic web tools. This embeds structured data directly in API responses.
+Include semantic metadata in API responses to make them easily processable by
+AI systems and semantic web tools. This embeds structured data directly in API
+responses.
 
 
 ## Test Cases
@@ -9,7 +11,8 @@ Include semantic metadata in API responses to make them easily processable by AI
 2. **JSON-LD format**: Metadata is in valid JSON-LD format
 3. **Schema compliance**: Metadata follows standard schemas (Schema.org, PROV-O)
 4. **AI processing**: AI systems can parse and use semantic metadata
-5. **Performance**: Semantic metadata doesn't significantly increase response size
+5. **Performance**: Semantic metadata doesn't significantly increase response
+   size
 
 ## Dependencies
 - US-051: RESTful Endpoints for Repository Resources

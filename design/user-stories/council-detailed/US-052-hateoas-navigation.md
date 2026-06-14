@@ -1,7 +1,9 @@
 # US-052: HATEOAS Navigation
 
 ## Description
-Implement HATEOAS (Hypermedia as the Engine of Application State) in API responses, enabling clients to navigate the API dynamically without prior knowledge of all endpoints.
+Implement HATEOAS (Hypermedia as the Engine of Application State) in API
+responses, enabling clients to navigate the API dynamically without prior
+knowledge of all endpoints.
 
 
 ## Test Cases

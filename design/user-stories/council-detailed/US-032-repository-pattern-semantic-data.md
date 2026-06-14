@@ -1,7 +1,9 @@
 # US-032: Repository Pattern for Semantic Data
 
 ## Description
-Implement the repository pattern for semantic data access, decoupling business logic from storage implementation. This enables easy switching between different storage backends and improves testability.
+Implement the repository pattern for semantic data access, decoupling business
+logic from storage implementation. This enables easy switching between different
+storage backends and improves testability.
 
 
 ## Test Cases

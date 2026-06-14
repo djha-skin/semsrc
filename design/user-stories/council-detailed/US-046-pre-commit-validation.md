@@ -1,7 +1,9 @@
 # US-046: Pre-commit Validation
 
 ## Description
-Implement pre-commit validation hooks to ensure semantic data quality before commits are created. This prevents invalid data from entering the repository and maintains data integrity.
+Implement pre-commit validation hooks to ensure semantic data quality before
+commits are created. This prevents invalid data from entering the repository and
+maintains data integrity.
 
 
 ## Test Cases

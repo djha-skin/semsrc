@@ -1,7 +1,9 @@
 # US-035: Strategy Pattern for Query Optimization
 
 ## Description
-Implement a strategy pattern for query optimization, allowing different query execution strategies to be selected based on context. This enables the system to choose the most efficient query approach for different scenarios.
+Implement a strategy pattern for query optimization, allowing different query
+execution strategies to be selected based on context. This enables the system to
+choose the most efficient query approach for different scenarios.
 
 
 ## Test Cases

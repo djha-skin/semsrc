@@ -1,7 +1,8 @@
 # US-048: Ticket Linking Hooks
 
 ## Description
-Implement hooks for automatic ticket linking in commit messages. This enables traceability between code changes and issue tracking systems automatically.
+Implement hooks for automatic ticket linking in commit messages. This enables
+traceability between code changes and issue tracking systems automatically.
 
 
 ## Test Cases

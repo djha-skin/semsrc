@@ -1,7 +1,9 @@
 # US-036: Git CLI Compatibility
 
 ## Description
-Implement a `semsrc` binary with Git-compatible commands, allowing users to continue using familiar Git workflows while leveraging semsrc's semantic features. This provides a seamless migration path from Git.
+Implement a `semsrc` binary with Git-compatible commands, allowing users to
+continue using familiar Git workflows while leveraging semsrc's semantic
+features. This provides a seamless migration path from Git.
 
 
 ## Test Cases

@@ -1,10 +1,14 @@
 # US-017: Commit Changes with a Message
 
 ## Description
-Commit staged changes to the repository with a descriptive message. This creates a permanent snapshot of the repository state that can be referenced later.
+
+Commit staged changes to the repository with a descriptive message. This
+creates a permanent snapshot of the repository state that can be referenced
+later.
 
 
 ## Test Cases
+
 1. **Basic commit**: Commit staged changes with message
 2. **Empty commit**: Handle commit with no staged changes (error)
 3. **Commit metadata**: Author, timestamp, and message are recorded
@@ -12,11 +16,13 @@ Commit staged changes to the repository with a descriptive message. This creates
 5. **Tree creation**: Commit creates tree object for file structure
 
 ## Dependencies
+
 - US-016: Add Files to Staging Area
 - US-001: Store Files with SHA-256 Content Addressing
 - US-009: Store RDF Triples in SQLite
 
 ## Implementation Notes
+
 - Create commit object with metadata
 - Generate tree object representing file structure
 - Store commit and tree in object store
@@ -26,6 +32,7 @@ Commit staged changes to the repository with a descriptive message. This creates
 - Support commit signing (optional)
 
 ## Edge Cases
+
 - **Invalid message**: Should validate commit message format
 - **Concurrent commits**: Should handle race conditions safely
 - **Large commits**: Should handle commits with many files efficiently

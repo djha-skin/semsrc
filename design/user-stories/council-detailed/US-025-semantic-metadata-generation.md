@@ -1,7 +1,9 @@
 # US-025: Semantic Metadata Generation from Operational Data
 
 ## Description
-Automatically generate semantic metadata from operational data (logs, metrics, events) to enrich the repository's knowledge graph. This enables AI systems to understand relationships and patterns in repository activity.
+Automatically generate semantic metadata from operational data (logs, metrics,
+events) to enrich the repository's knowledge graph. This enables AI systems to
+understand relationships and patterns in repository activity.
 
 
 ## Test Cases

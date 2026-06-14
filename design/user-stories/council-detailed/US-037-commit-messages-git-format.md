@@ -1,7 +1,9 @@
 # US-037: Commit Messages in Git Format
 
 ## Description
-Store commit messages in standard Git format to ensure compatibility with external tools, CI/CD systems, and Git clients. This enables seamless integration with the existing Git ecosystem.
+Store commit messages in standard Git format to ensure compatibility with
+external tools, CI/CD systems, and Git clients. This enables seamless
+integration with the existing Git ecosystem.
 
 
 ## Test Cases

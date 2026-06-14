@@ -1,7 +1,9 @@
 # US-022: Ticket ID Extraction from Commit Messages
 
 ## Description
-Automatically extract ticket IDs from commit messages and link commits to issue tracking systems. This enables traceability between code changes and the issues they address.
+Automatically extract ticket IDs from commit messages and link commits to issue
+tracking systems. This enables traceability between code changes and the issues
+they address.
 
 
 ## Test Cases

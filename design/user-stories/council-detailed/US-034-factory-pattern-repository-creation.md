@@ -1,7 +1,9 @@
 # US-034: Factory Pattern for Repository Creation
 
 ## Description
-Implement a factory pattern for repository creation to centralize dependency injection and simplify repository instantiation. This enables easy configuration and swapping of repository implementations.
+Implement a factory pattern for repository creation to centralize dependency
+injection and simplify repository instantiation. This enables easy configuration
+and swapping of repository implementations.
 
 
 ## Test Cases

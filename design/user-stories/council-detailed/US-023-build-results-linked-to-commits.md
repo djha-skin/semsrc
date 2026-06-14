@@ -1,7 +1,9 @@
 # US-023: Build Results Linked to Commits
 
 ## Description
-Link build results and CI/CD outcomes to specific commits in the semantic graph. This provides traceability from code changes to their build and test results.
+Link build results and CI/CD outcomes to specific commits in the semantic
+graph. This provides traceability from code changes to their build and test
+results.
 
 
 ## Test Cases

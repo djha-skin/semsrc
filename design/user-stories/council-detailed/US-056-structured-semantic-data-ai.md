@@ -1,7 +1,9 @@
 # US-056: Structured Semantic Data for AI
 
 ## Description
-Provide structured semantic data specifically designed for AI processing, making repository information easily consumable by AI agents and machine learning systems.
+Provide structured semantic data specifically designed for AI processing,
+making repository information easily consumable by AI agents and machine
+learning systems.
 
 
 ## Test Cases

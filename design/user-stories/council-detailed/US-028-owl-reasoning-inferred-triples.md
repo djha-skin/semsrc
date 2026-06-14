@@ -1,7 +1,9 @@
 # US-028: OWL Reasoning for Inferred Triples
 
 ## Description
-Implement OWL reasoning capabilities to automatically infer new triples based on existing data and ontological rules. This enables the system to derive implicit knowledge from explicit data.
+Implement OWL reasoning capabilities to automatically infer new triples based
+on existing data and ontological rules. This enables the system to derive
+implicit knowledge from explicit data.
 
 
 ## Test Cases

@@ -1,14 +1,17 @@
 # US-024: File Rename Tracking Semantically
 
 ## Description
-Track file renames semantically to maintain coherent history across file name changes. This ensures that operations like `git log --follow` work correctly when files are renamed.
+Track file renames semantically to maintain coherent history across file name
+changes. This ensures that operations like `git log --follow` work correctly
+when files are renamed.
 
 
 ## Test Cases
 1. **Basic rename**: Track a simple file rename
 2. **Multiple renames**: Handle multiple files renamed in one commit
 3. **Rename chain**: Handle file renamed multiple times across commits
-4. **Rename detection**: Automatically detect renames based on content similarity
+4. **Rename detection**: Automatically detect renames based on content
+   similarity
 5. **History query**: Query complete history across renames
 
 ## Dependencies

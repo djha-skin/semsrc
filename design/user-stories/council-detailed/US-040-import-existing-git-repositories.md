@@ -1,7 +1,9 @@
 # US-040: Import Existing Git Repositories
 
 ## Description
-Import existing Git repositories into Semsrc, preserving commit history, branches, and tags. This enables gradual migration from Git to Semsrc without losing historical data.
+Import existing Git repositories into Semsrc, preserving commit history,
+branches, and tags. This enables gradual migration from Git to Semsrc without
+losing historical data.
 
 
 ## Test Cases

@@ -1,7 +1,9 @@
 # US-043: Delta Compression Handling
 
 ## Description
-Implement delta compression for efficient storage of similar objects. This reduces storage requirements by storing only the differences between similar files rather than complete copies.
+Implement delta compression for efficient storage of similar objects. This
+reduces storage requirements by storing only the differences between similar
+files rather than complete copies.
 
 
 ## Test Cases
@@ -28,4 +30,5 @@ Implement delta compression for efficient storage of similar objects. This reduc
 - **Delta chain limits**: Should prevent excessively long delta chains
 - **Memory usage**: Should limit memory during delta operations
 - **Corrupted deltas**: Should detect and handle corruption
-- **Performance degradation**: Should detect when delta compression hurts performance
+- **Performance degradation**: Should detect when delta compression hurts
+   performance

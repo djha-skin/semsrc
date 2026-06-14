@@ -1,7 +1,9 @@
 # US-027: SPARQL Endpoint for Semantic Queries
 
 ## Description
-Provide a SPARQL endpoint for performing semantic queries against the repository's knowledge graph. This enables complex relationship exploration and data analysis using standard semantic web technologies.
+Provide a SPARQL endpoint for performing semantic queries against the
+repository's knowledge graph. This enables complex relationship exploration and
+data analysis using standard semantic web technologies.
 
 
 ## Test Cases

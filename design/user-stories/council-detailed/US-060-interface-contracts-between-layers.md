@@ -1,14 +1,17 @@
 # US-060: Interface Contracts Between Layers
 
 ## Description
-Define and enforce interface contracts between architectural layers to ensure loose coupling and maintainable code. This enables independent testing and evolution of different layers.
+Define and enforce interface contracts between architectural layers to ensure
+loose coupling and maintainable code. This enables independent testing and
+evolution of different layers.
 
 
 ## Test Cases
 1. **Interface compliance**: Layers implement required interfaces
 2. **Dependency injection**: Dependencies are injected through interfaces
 3. **Unit testing**: Interfaces enable easy unit testing
-4. **Interface evolution**: Interfaces can evolve without breaking implementations
+4. **Interface evolution**: Interfaces can evolve without breaking
+   implementations
 5. **Documentation**: Interfaces are well-documented
 
 ## Dependencies
