@@ -15,7 +15,7 @@ when files are renamed.
 5. **History query**: Query complete history across renames
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-017: Commit Changes with a Message
 - US-019: View Differences Between Commits
 

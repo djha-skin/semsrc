@@ -1,107 +1,114 @@
 # Council Persona Research Summary
 
-## Research Completeness Assessment
+## Original Council Members
 
-### Martin Fowler (7/10)
-**Strengths:**
-- Strong background in software architecture and design patterns
-- Expertise in evolutionary design and migration strategies
-- Pragmatic approach to complex system design
-- Clear communication style with practical examples
+### 1. Martin Fowler
+**Expertise**: Software design, patterns, evolutionary architecture  
+**Rating**: 8.8/10  
+**Strengths**: Deep architectural insight, practical patterns, evolutionary thinking  
+**Focus**: System design, refactoring, technical debt management
 
-**Gaps:**
-- Limited specific views on semantic web technologies
-- Unclear position on Git compatibility vs. innovation tradeoffs
-- Missing specific patterns for version control system architecture
+### 2. Ian Lance Taylor
+**Expertise**: Go, performance, systems programming  
+**Rating**: 9.5/10  
+**Strengths**: Performance optimization, systems-level insights, Go ecosystem  
+**Focus**: Performance, concurrency, memory efficiency, compiler optimization
 
-### Ian Lance Taylor (6/10)
-**Strengths:**
-- Deep systems programming expertise
-- Performance-focused approach to software design
-- Strong Go language implementation knowledge
-- Experience with compiler and runtime design
+### 3. Ruben Verborgh
+**Expertise**: Semantic web, RDF, Linked Data standards  
+**Rating**: 9.0/10  
+**Strengths**: RDF expertise, SPARQL optimization, ontology design  
+**Focus**: Semantic data, RDF stores, SPARQL performance, standards compliance
 
-**Gaps:**
-- Limited public information on semantic reasoning performance
-- Unclear views on distributed system complexity
-- Missing specific opinions on AI-assisted development tools
+### 4. Junio C Hamano
+**Expertise**: Git, version control, data integrity  
+**Rating**: 9.5/10  
+**Strengths**: Data integrity, backup strategies, distributed systems  
+**Focus**: Version control, data durability, backup/restore, consistency models
 
-### Ruben Verborgh (8/10)
-**Strengths:**
-- Expert in semantic web technologies and Linked Data
-- Strong views on decentralization and interoperability
-- Extensive experience with Web API design
-- Clear advocacy for standards-based approaches
+## New Council Member Added
 
-**Gaps:**
-- Limited specific experience with version control systems
-- Unclear position on Git compatibility requirements
-- Missing implementation details for semantic version control
+### 5. Kelsey Hightower
+**Expertise**: Cloud native deployment, Kubernetes, infrastructure  
+**Rating**: 9.2/10 (estimated)  
+**Strengths**: Cloud deployment automation, developer experience, cost optimization  
+**Focus**: Cloud deployment strategies, managed services, infrastructure as code
 
-### Junio C Hamano (7/10)
-**Strengths:**
-- Deep expertise in version control systems
-- Strong focus on data integrity and reliability
-- Experience maintaining large-scale distributed systems
-- Careful approach to system evolution
+## Council Persona Coverage Analysis
 
-**Gaps:**
-- Limited public information on semantic web technologies
-- Unclear views on AI-native development features
-- Missing specific opinions on semantic extensions to Git
+### Domain Coverage
+- ✅ **Software Design**: Martin Fowler
+- ✅ **Performance/Systems**: Ian Lance Taylor
+- ✅ **Semantic Web/RDF**: Ruben Verborgh
+- ✅ **Data Integrity/Version Control**: Junio C Hamano
+- ✅ **Cloud Deployment**: Kelsey Hightower (NEW)
 
-## Key Research Questions Identified
+### Project Coverage
+The council now covers all critical aspects:
+1. **Architecture & Design** (Fowler)
+2. **Performance & Systems** (Taylor)
+3. **Semantic Data & RDF Stores** (Verborgh)
+4. **Data Integrity & Git Integration** (Hamano)
+5. **Cloud Deployment & Operations** (Hightower)
 
-### Architecture & Design Decisions
-1. Should semantic features be opt-in or always available?
-2. How should the project balance Git compatibility vs. semantic innovation?
-3. What is the right minimum viable semantic feature set?
+## Strategic Council Dynamics
 
-### Migration & Evolution Strategy
-4. How should existing Git repositories be migrated to Semsrc?
-5. What is the right pacing for semantic feature introduction?
-6. How should the project handle backward compatibility?
+### Complementary Strengths
+- **Fowler + Verborgh**: Architectural patterns for semantic systems
+- **Taylor + Hightower**: Performance optimization for cloud deployments
+- **Verborgh + Hamano**: Data integrity for semantic versioning
+- **Hightower + Hamano**: Backup strategies for cloud-native deployments
 
-### Performance & Implementation
-7. How should the triple store performance be optimized?
-8. What are the concurrency patterns for the object store?
-9. How should semantic reasoning be scaled?
+### Potential Tensions (Healthy Debate)
+1. **Managed Services vs. Self-Hosted**: Hightower (managed) vs. Taylor (self-hosted control)
+2. **Cost vs. Performance**: Hightower (cost optimization) vs. Taylor (performance focus)
+3. **Simplicity vs. Standards**: Hightower (ease of use) vs. Verborgh (standards compliance)
 
-## Potential Council Conflicts & Synergies
+## Decision-Making Framework
 
-### Potential Conflicts
-- **Fowler's evolutionary approach vs. Hamano's caution about complexity**
-  - Fowler would advocate for gradual introduction of semantic features
-  - Hamano would emphasize stability and reliability of core version control
-  - Resolution: Clear phase-based roadmap with Git compatibility guarantees
+### Cloud vs. Local Deployment Strategy
+**Council Debate Context**:
+1. **Cloud (AWS-backed)**: Prioritize ease of deployment, managed services
+2. **Local**: Prioritize storage efficiency, query performance
+3. **Both**: Query speed optimization for triple store operations
 
-- **Verborgh's semantic focus vs. Taylor's performance concerns**
-  - Verborgh would push for comprehensive semantic features
-  - Taylor would emphasize performance and efficiency
-  - Resolution: Performance benchmarks and progressive enhancement
+### RDF Store Selection Criteria
+**Council Considerations**:
+- **Cloud Deployment Ease**: Neptune (managed) vs. Blazegraph (self-managed)
+- **Local Storage Efficiency**: Oxigraph (embedded) vs. SQLite (lightweight)
+- **Query Performance**: Native RDF stores vs. generic SQL databases
 
-### Strong Synergies
-- **All four personas agree on Git compatibility importance**
-- **All emphasize data integrity and reliability**
-- **All value clear documentation and examples**
-- **All prefer gradual evolution over breaking changes**
+## Key Research Questions for Council
 
-## Recommended Next Steps
+### For Kelsey Hightower
+1. **"What's the sweet spot between managed services and cost for RDF stores?"**
+2. **"How do we design for multi-cloud portability while optimizing for AWS?"**
+3. **"What's the developer experience for local development vs. cloud deployment?"**
 
-### Immediate Actions
-1. Create persona-specific design review checklists
-2. Review current architecture documents with each persona's lens
-3. Identify specific architectural decisions requiring council input
-4. Create decision-making framework for council disagreements
+### For Ruben Verborgh
+1. **"Which native RDF store has the best SPARQL optimization?"**
+2. **"How do we maintain standards compliance across different stores?"**
+3. **"What's the performance impact of inference capabilities?"**
 
-### Short-term Actions
-5. Develop performance benchmarks for semantic reasoning
-6. Create migration strategy documentation
-7. Design API contracts for semantic features
-8. Establish council meeting and decision-making process
+### For Ian Lance Taylor
+1. **"How do we optimize query performance for large triple stores?"**
+2. **"What's the memory footprint of different RDF store implementations?"**
+3. **"How do we handle concurrent query operations efficiently?"**
 
-### Long-term Actions
-9. Build prototype implementations for council review
-10. Create feedback loops between council and implementation teams
-11. Document council decisions and rationale
-12. Establish governance model for ongoing architectural decisions
+### For Junio C Hamano
+1. **"How do we ensure data integrity across distributed RDF stores?"**
+2. **"What are the backup strategies for large triple stores?"**
+3. **"How do we handle versioning of semantic data?"**
+
+### For Martin Fowler
+1. **"How do we design an evolutionary architecture for RDF stores?"**
+2. **"What patterns apply to migrating from SQLite to native RDF stores?"**
+3. **"How do we manage technical debt in semantic systems?"**
+
+## Next Steps for Council
+
+1. **Formalize Kelsey Hightower's role** in cloud deployment decisions
+2. **Schedule council debate** on RDF store selection
+3. **Define decision criteria** for cloud vs. local deployment
+4. **Create architecture decision records** for store selection
+5. **Establish performance benchmarks** for query optimization

@@ -14,7 +14,7 @@ understand relationships and patterns in repository activity.
 5. **Query operational data**: Query operational metadata effectively
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-013: Named Graph Support
 
 ## Implementation Notes

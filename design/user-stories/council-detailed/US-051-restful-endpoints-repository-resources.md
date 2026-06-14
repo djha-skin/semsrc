@@ -13,7 +13,7 @@ access and integration with external tools, services, and AI agents.
 5. **Pagination**: Handle large result sets with pagination
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-027: SPARQL Endpoint for Semantic Queries
 
 ## Implementation Notes

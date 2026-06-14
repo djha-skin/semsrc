@@ -19,7 +19,7 @@ later.
 
 - US-016: Add Files to Staging Area
 - US-001: Store Files with SHA-256 Content Addressing
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 
 ## Implementation Notes
 

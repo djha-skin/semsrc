@@ -15,7 +15,7 @@ using keyword searches.
 
 ## Dependencies
 - US-001: Store Files with SHA-256 Content Addressing
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 
 ## Implementation Notes
 - Use full-text search index (e.g., SQLite FTS5)

@@ -14,7 +14,7 @@ losing historical data.
 5. **Error handling**: Handle import failures gracefully
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-017: Commit Changes with a Message
 - US-036: Git CLI Compatibility
 

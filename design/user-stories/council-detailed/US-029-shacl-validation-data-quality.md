@@ -14,7 +14,7 @@ constraints.
 5. **Custom shapes**: Support user-defined SHACL shapes
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 
 ## Implementation Notes
 - Use SHACL 1.1 specification

@@ -17,7 +17,7 @@ across the repository's semantic graph.
 
 ## Dependencies
 
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 
 ## Implementation Notes
 

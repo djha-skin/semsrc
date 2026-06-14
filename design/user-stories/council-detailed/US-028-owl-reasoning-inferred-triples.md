@@ -14,7 +14,7 @@ implicit knowledge from explicit data.
 5. **Incremental inference**: Update inferences efficiently when data changes
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-011: OWL Inference Support (foundation)
 
 ## Implementation Notes

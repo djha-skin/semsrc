@@ -18,7 +18,7 @@ files, and establishes the semantic graph with default contexts.
 ## Dependencies
 
 - US-001: Store Files with SHA-256 Content Addressing
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-013: Named Graph Support
 
 ## Implementation Notes

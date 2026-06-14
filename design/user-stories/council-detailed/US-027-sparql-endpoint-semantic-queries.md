@@ -14,7 +14,7 @@ data analysis using standard semantic web technologies.
 5. **Large result sets**: Stream large query results efficiently
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-010: SPARQL Query Endpoint (foundation)
 
 ## Implementation Notes

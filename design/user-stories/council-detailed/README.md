@@ -28,7 +28,7 @@ This directory contains detailed user stories fleshed out in the yamcl format, m
 - `US-006-batch-operations-multiple-objects.md` - Batch operations
 - `US-007-object-store-interface-abstraction.md` - Object store abstraction
 - `US-008-object-store-factory-pattern.md` - Factory pattern for object store
-- `US-009-store-rdf-triples-sqlite.md` - RDF triple storage in SQLite
+- `US-009-store-rdf-triples-native-rdf-store.md` - RDF triple storage in native RDF store
 - `US-010-sparql-query-endpoint.md` - SPARQL query endpoint
 - `US-011-owl-inference-support.md` - OWL inference support
 - `US-012-transaction-support-ACID.md` - ACID transaction support

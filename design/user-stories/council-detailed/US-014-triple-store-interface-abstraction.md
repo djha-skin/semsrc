@@ -17,7 +17,7 @@ implementations to be swapped easily. This enables flexibility in storage choice
 
 ## Dependencies
 
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-010: SPARQL Query Endpoint
 - US-012: Transaction Support with ACID Semantics
 

@@ -704,7 +704,13 @@ func (f *TripleStoreFactory) Create(config Config) (TripleStore, error) {
     var store TripleStore
     
     switch config.Type {
+    case "blazegraph":
+        store = NewBlazegraphTripleStore(config.Path)
+    case "oxigraph":
+        store = NewOxigraphTripleStore(config.Path)
     case "sqlite":
+        // SQLite support retained for lighter embedded scenarios
+        // Note: Native RDF stores (blazegraph/oxigraph) preferred for semantic features
         store = NewSQLiteTripleStore(config.Path)
     case "postgres":
         store = NewPostgresTripleStore(config.ConnectionString)
@@ -1165,8 +1171,12 @@ storage:
     sharding_depth: 2
   
   triple_store:
-    type: "sqlite"
-    path: "/home/user/.semsrc/triples.db"
+    type: "blazegraph"  # Native RDF store preferred over SQLite
+    path: "/home/user/.semsrc/triples"
+    # Alternative options:
+    # type: "sqlite"    # Lighter weight, but limited semantic features
+    # type: "oxigraph"   # Rust-based, fast, embedded
+    # type: "postgres"   # For team server scenarios
     inference: true
     validation: true
 
@@ -1195,7 +1205,7 @@ performance:
 
 ### Single User Local
 - Filesystem object store
-- SQLite triple store
+- Native RDF store (Blazegraph/Oxigraph) or SQLite for embedded scenarios
 - CLI interface only
 - No network services
 

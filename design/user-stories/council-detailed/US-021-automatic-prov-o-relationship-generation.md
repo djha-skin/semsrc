@@ -14,7 +14,7 @@ activities, and agents in a standardized semantic format.
 5. **Provenance query**: Query provenance relationships effectively
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-017: Commit Changes with a Message
 - US-013: Named Graph Support
 

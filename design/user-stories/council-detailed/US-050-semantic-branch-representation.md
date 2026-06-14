@@ -15,7 +15,7 @@ metadata into queryable semantic data.
 
 ## Dependencies
 - US-038: Branch Management Compatible with Git
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 
 ## Implementation Notes
 - Create semantic URI for each branch

@@ -14,7 +14,7 @@ storage backends and improves testability.
 5. **Testability**: Repository can be mocked for unit testing
 
 ## Dependencies
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 - US-010: SPARQL Query Endpoint
 
 ## Implementation Notes

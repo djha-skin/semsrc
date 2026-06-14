@@ -49,7 +49,8 @@ Semsrc integrates:
 ### 3. Portability and Deployment
 
 - Object store abstraction supports filesystem, S3, or custom backends
-- Triple store portable across SQLite, embedded RDF, or cloud services
+- Triple store portable across **Amazon Neptune** (cloud) and **Oxigraph** (local)
+- **Council Decision**: Native RDF stores preferred over SQLite (see ADR-001)
 - Single-binary deployment for local development
 - Scalable to enterprise multi-tenant clouds
 - Works offline with eventual consistency capabilities
@@ -89,8 +90,8 @@ Semsrc follows a strict bounded context architecture to ensure clear separation 
 ┌─────────────────────────────────────────────────────────┐
 │                Storage Implementation Layer             │
 │  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐    │
-│  │  Filesystem │  │     S3      │  │   SQLite/   │    │
-│  │Object Store │  │Object Store │  │  Embedded   │    │
+│  │  Filesystem │  │     S3      │  │ Blazegraph/ │    │
+│  │Object Store │  │Object Store │  │   Oxigraph  │    │
 │  └─────────────┘  └─────────────┘  └─────────────┘    │
 │  Bounded Context: Storage Backends                     │
 └─────────────────────────────────────────────────────────┘
@@ -252,8 +253,14 @@ compatibility plus semantic extensions.
    - Repository Pattern for data access
    - Strategy Pattern for storage backend selection
    - Factory Pattern for object creation
+   - **Worktree Management**: New pattern for parallel development workflows
+   - **Staging Area**: Advanced staging with hunk-by-hunk control
+   - **Semantic Merge**: RDF-aware conflict resolution
 
 3. **Establish Evolutionary Migration Framework**
    - Create migration tools for Git repositories
    - Define success metrics and tracking
    - Document migration scenarios
+   - **Worktree Support**: Multiple working trees for parallel development
+   - **Reflog & Recovery**: Safety net for developer mistakes
+   - **Tag Management**: Semantic versioning support

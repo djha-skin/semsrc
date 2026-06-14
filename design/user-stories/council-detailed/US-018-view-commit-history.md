@@ -18,7 +18,7 @@ over time.
 ## Dependencies
 
 - US-017: Commit Changes with a Message
-- US-009: Store RDF Triples in SQLite
+- US-009: Store RDF Triples in Native RDF Store
 
 ## Implementation Notes
 

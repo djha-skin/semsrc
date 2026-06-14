@@ -318,7 +318,11 @@ storage:
     compression: "zstd"
   
   triple_store:
-    type: "sqlite"  # or "postgres", "blazegraph"
+    type: "blazegraph"  # Native RDF store preferred
+    # Alternative options:
+    # type: "sqlite"    # Embedded, lighter weight
+    # type: "oxigraph"   # Rust-based embedded
+    # type: "postgres"   # For team server scenarios
     path: "/path/to/triples.db"
 ```
 

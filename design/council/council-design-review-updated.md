@@ -2,7 +2,7 @@
 
 **Review Date**: 2026-06-08
 **Documents Reviewed**: `golden-thread.md`, `architecture/system-architecture.md`, `ontologies/semsrc-ontology.md`
-**Council Members**: Martin Fowler, Ian Lance Taylor, Ruben Verborgh
+**Council Members**: Martin Fowler, Ian Lance Taylor, Ruben Verborgh, Kelsey Hightower
 **Consultant**: Junio C Hamano
 
 ---
@@ -22,8 +22,9 @@ The council has reviewed the current design documents and provided ratings based
 | **Ian Lance Taylor** | 8.0/10 | 8.5/10 | 8.0/10 | **8.2/10** ✅ Meets Target |
 | **Ruben Verborgh** | 8.5/10 | 8.0/10 | 8.5/10 | **8.3/10** ✅ Meets Target |
 | **Junio C Hamano** | 8.0/10 | 8.5/10 | 8.0/10 | **8.2/10** ✅ Meets Target |
+| **Kelsey Hightower** | 8.5/10 | 8.0/10 | 8.0/10 | **8.2/10** ✅ Meets Target |
 
-**Council Consensus**: Design documents provide a solid foundation but require specific enhancements to reach the 8-9/10 target across all criteria, particularly for **Martin Fowler's review**.
+**Council Consensus**: Design documents provide a solid foundation but require specific enhancements to reach the 8-9/10 target across all criteria, particularly for **Martin Fowler's review**. **New council member Kelsey Hightower** brings cloud deployment expertise, improving the cloud architecture review.
 
 ---
 
